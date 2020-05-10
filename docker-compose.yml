@@ -1,0 +1,16 @@
+version: '3'
+services:
+    web:
+        # build: webapp/
+        image: jspablo/answers_to_corona_webapp
+        env_file:
+            .env
+        ports:
+            - "8000:8000"
+        depends_on:
+            - ai
+    
+    ai:
+        # build: ai/
+        image: jspablo/answers_to_corona_nlp:beta
+        command: --model_config_file=/models/model_config.config
