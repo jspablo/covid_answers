@@ -24,7 +24,7 @@ Jinja2==2.11.2
 jmespath==0.9.5
 joblib==0.14.1
 MarkupSafe==1.1.1
-numpy==1.18.3
+numpy==1.22.0
 plotly==4.6.0
 python-dateutil==2.8.1
 python-dotenv==0.13.0
