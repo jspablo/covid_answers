@@ -22,7 +22,7 @@ idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.2
 jmespath==0.9.5
-joblib==0.14.1
+joblib==1.2.0
 MarkupSafe==1.1.1
 numpy==1.18.3
 plotly==4.6.0
